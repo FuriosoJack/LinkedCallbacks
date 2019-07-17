@@ -1,0 +1,30 @@
+{
+    "name": "furiosojack/linked-callbacks",
+    "description": "listas enlazadas de callbacks",
+    "authors": [
+        {
+            "name": "FuriosoJack",
+            "email": "iam@furiosojack.com"
+        }
+    ],
+    "homepage": "https://github.com/FuriosoJack/LinkedCallbacks",
+    "autoload": {
+        "psr-4": {
+            "FuriosoJack\\LinkedCallbacks\\": "src"
+        }
+    },
+    "autoload-dev":{
+        "psr-4": {
+            "FuriosoJack\\LinkedCallbacks\\Tests\\": "tests"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
+    "require": {
+        "php" : ">=7.0"
+    },
+    "require-dev":{
+        "phpunit/phpunit": "^7",
+        "phpdocumentor/phpdocumentor": "dev-master"
+    }
+}
