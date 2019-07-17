@@ -76,7 +76,7 @@ class NodeDoubleCallback
     /**
      * @return mixed
      */
-    public function getNodeNext(): self
+    public function getNodeNext()
     {
         return $this->nodeNext;
     }
@@ -84,7 +84,7 @@ class NodeDoubleCallback
     /**
      * @return mixed
      */
-    public function getNodePrevius(): self
+    public function getNodePrevius()
     {
         return $this->nodePrevius;
     }

@@ -29,7 +29,7 @@ class ListDoubleCallbacks
     /**
      * @return mixed
      */
-    public function getFirstNode(): NodeDoubleCallback
+    public function getFirstNode()
     {
         return $this->firstNode;
     }
@@ -37,7 +37,7 @@ class ListDoubleCallbacks
     /**
      * @return mixed
      */
-    public function getLastNode(): NodeDoubleCallback
+    public function getLastNode()
     {
         return $this->lastNode;
     }
